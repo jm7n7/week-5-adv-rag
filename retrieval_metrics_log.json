@@ -1,0 +1,30 @@
+[
+    {
+        "retriever": "RRF + Rerank + Compression",
+        "query": "What is the main idea of the Maia-2 paper?",
+        "latency_seconds": 1.760443925857544,
+        "average_context_length": 1028.0,
+        "num_retrieved_docs": 5
+    },
+    {
+        "retriever": "RRF + Rerank + Compression",
+        "query": "What is the main idea of the Maia-2 paper?",
+        "latency_seconds": 1.705660343170166,
+        "average_context_length": 2522.8,
+        "num_retrieved_docs": 5
+    },
+    {
+        "retriever": "RRF + Rerank + Compression",
+        "query": "What is the main idea of the Maia-2 paper?",
+        "latency_seconds": 3.0327000617980957,
+        "average_context_length": 2522.8,
+        "num_retrieved_docs": 5
+    },
+    {
+        "retriever": "RRF + Rerank + Compression",
+        "query": "What is the main idea of the Maia-2 paper?",
+        "latency_seconds": 1.2836945056915283,
+        "average_context_length": 2817.0,
+        "num_retrieved_docs": 5
+    }
+]

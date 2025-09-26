@@ -1,0 +1,31 @@
+{
+    "embedding_model": "all-MiniLM-L6-v2",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "chunking": {
+        "chunk_size": 500,
+        "chunk_overlap": 100
+    },
+    "retriever": {
+        "bm25_k": 4,
+        "dense_k": 4,
+        "ensemble_weights": [
+            0.5,
+            0.5
+        ]
+    },
+    "multimodal_pipeline": {
+        "image_captioning_model": "Gemini-Vision",
+        "image_files_processed": [
+            "daily_puzzle.png",
+            "puzzle_1.png",
+            "puzzle_2.png",
+            "puzzle_3.png"
+        ]
+    },
+    "compression_pipeline": {
+        "transformers": [
+            "EmbeddingsRedundantFilter"
+        ]
+    },
+    "guardrails": "Skipped as per plan"
+}
